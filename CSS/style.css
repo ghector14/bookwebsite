@@ -1,0 +1,84 @@
+body {
+    background-color: #03031A;
+    display: grid;
+    grid-template-areas: "hd hd hd"
+                        "1 2 3"
+                        "4 5 6";
+}
+ 
+/********************nav*******************************/
+
+nav {
+    background-color: transparent;
+     height: 50px;
+     position: fixed; 
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    z-index: 5;
+    font-family: 'Gruppo', cursive;
+ }
+ 
+ nav .links {
+     margin: 0 30px;
+     display: flex;
+     align-items: center;
+     color: silver;
+     text-shadow: 1px 1px 5px black;
+     font-size: 2rem;
+ }
+
+ nav a {
+     margin: 15px;
+ }
+ 
+ 
+ #main {
+     color: white;
+     text-decoration: none;
+     font-size: 1.7rem;
+     font-family: 'Gruppo', cursive;
+ }
+ 
+ #main:hover {
+    color: gray;
+     cursor: pointer;
+ }
+ 
+ /*******************Header********************************/
+
+ .intro h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    padding: 5rem;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(93, 94, 82), silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .intro {
+    grid-area: hd;
+    padding-top: 1rem;
+    background-position: center;
+    background-repeat: none;
+    z-index: 1;
+    font-family:'Gruppo', cursive;
+}
+  
+#canvas {
+    background: linear-gradient(143deg,#000e3b 1%, rgb(21, 55, 95) 48%, rgb(65, 77, 47) 99%),linear-gradient(#1e2652,#1e2652);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+
+}
+
+#imghome {
+      height: 7vh;
+      padding-top: 75px;
+}
+
+

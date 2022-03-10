@@ -1,0 +1,7 @@
+body {
+    display: grid;
+    grid-template-areas: "hd hd hd"
+                        "1 2 3"
+                        "4 5 6";
+}
+
