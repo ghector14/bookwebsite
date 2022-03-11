@@ -1,5 +1,6 @@
 body {
-    background-color: #03031A;
+    margin: 0;
+    background-color: #000000;
     display: grid;
     grid-template-areas: "hd hd hd"
                         "1 2 3"
@@ -37,7 +38,7 @@ nav {
  #main {
      color: white;
      text-decoration: none;
-     font-size: 1.7rem;
+     font-size: 1.3rem;
      font-family: 'Gruppo', cursive;
  }
  

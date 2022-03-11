@@ -75,25 +75,25 @@ function start() {
     shootingStars = [],
     // Edit these to adjust the moving stars
       layers = [{
-        speed: 0.1,
-        scale: 0.2,
+        speed: 0.01,
+        scale: 0.1,
         count: 320
       },
       {
-        speed: 0.2,
+        speed: 0.07,
         scale: 0.6,
         count: 50
       },
       {
-        speed: 0.05,
+        speed: 0.04,
         scale: 0.8,
         count: 30
       }
     ],
     starsAngle = 135,
     shootingStarSpeed = {
-      min: 7,
-      max: 7
+      min: 5,
+      max: 5
     },
     shootingStarOpacityDelta = 0.01,
     trailLengthDelta = 0.01,
@@ -258,5 +258,5 @@ function start() {
   window.onblur = function() {
     paused = true;
   };
-
+  
 }

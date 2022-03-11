@@ -41,7 +41,7 @@ body {
 
 .front:before, .back:before {
   background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%), 
-  url(none), url("https://live.staticflickr.com/65535/51931804879_8e4e4bab64_b.jpg"), url(none);
+  url(none), url("https://live.staticflickr.com/65535/51932114975_b31b4914e7_b.jpg"), url(none);
   background-position: -300% 90%, right top, center top, left top;
   background-size: 100% 200%, auto 100%, auto 100%, auto 100%;
   transform: rotateY(-90deg) translateX(-18px);
@@ -66,7 +66,7 @@ body {
   height: 250px;
   z-index: -1;
    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%),
-    url(none), url(none), url("https://live.staticflickr.com/65535/51932101455_6faefd9b41_b.jpg");
+    url(none), url(none), url("https://m.media-amazon.com/images/I/51nhK7pMuVL._AC_SY780_.jpg");
   background-size: auto 100%, auto 100%;
   background-position: top left;
 }
@@ -91,10 +91,10 @@ body {
 .front {
   z-index: -1;
   background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%),
-    url("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171466627l/100287._SX318_.jpg"), url(none), url(none);
+    url("https://m.media-amazon.com/images/I/41pqEVq1MQL._AC_SY1000_.jpg"), url(none), url(none);
   background-position: -200% 100%, right top, center top, left top;
   background-size: 200% 200%, auto 100%, auto 100%, auto 100%;
-  width: 163px;
+  width: 157px;
   height: 250px;
 }
 
