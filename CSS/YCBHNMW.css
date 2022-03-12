@@ -1,23 +1,22 @@
 body {
-    display: grid;
-    grid-template-areas: "hd hd hd"
-                        "1 2 3"
-                        "4 5 6";
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "hd hd hd";
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .stage {
-    grid-area: hd;
-    width: 150px;
-    height: 250px;
-    margin: auto;
-    margin-top: 10vh;
-    perspective: 1080px;
-    position: relative;
-    perspective-origin: 0 -55%;
+  grid-area: hd;
+  width: 150px;
+  height: 250px;
+  margin: auto;
+  margin-top: 10vh;
+  perspective: 1080px;
+  position: relative;
+  perspective-origin: 0 -55%;
 }
 
 .group {
@@ -71,8 +70,6 @@ body {
   background-position: top left;
 }
 
-
-
 .back:before {
   height: 157px;
   z-index: -1;
@@ -124,4 +121,59 @@ body {
 .stage .front:before {
   animation: lightingeffect 25s infinite linear;
   animation-delay: 0;
+}
+
+#Author {
+ z-index: 1;
+ position: relative;
+ grid-area: hd;
+ text-align: center;
+ margin-top: 27vh;
+}
+ 
+p {
+ text-align: center;
+ z-index: 1;
+ color: snow;
+ position: relative;
+ font-size: medium;
+ font-family:'Gruppo', cursive;
+ font-size: 24px;
+}
+   
+#accordian {
+ position: relative;
+ grid-area: hd;
+ z-index: 1;
+ font-family: 'Gruppo', cursive;
+ font-size: 24px;
+ color: #a0871b;
+ margin-top: 37vh;
+}
+ 
+#accordian h3 {
+ font-size: 25px;
+ line-height: 30px;
+ cursor: pointer;
+}
+ 
+ 
+#accordian h3:hover {
+ color: rgba(119, 88, 2, 0.7);
+}
+ 
+#accordian li {
+ list-style-type: none;
+}
+ 
+#accordian ul p {
+ color: white;
+ text-decoration: none;
+ font-size: 19px;   
+ padding: 50px;
+ transition: all 0.15s;
+}
+ 
+#accordian ul ul {
+ display: none;
 }

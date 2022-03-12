@@ -69,7 +69,7 @@ nav {
 }
   
 #canvas {
-    background: linear-gradient(143deg,#000e3b 1%, rgb(21, 55, 95) 48%, rgb(65, 77, 47) 99%),linear-gradient(#1e2652,#1e2652);
+    background: linear-gradient(143deg,#020303 1%, rgb(1, 30, 53) 48%, rgb(45, 65, 61) 99%),linear-gradient(#1e2652,#1e2652);
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -81,5 +81,6 @@ nav {
       height: 7vh;
       padding-top: 75px;
 }
+
 
 
